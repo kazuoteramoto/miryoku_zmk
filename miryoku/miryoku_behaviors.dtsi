@@ -17,5 +17,13 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
+    u_lh: behavior_layer_tap_hold {
+      compatible = "zmk,behavior-hold-tap";
+      label = "u_lh";
+      #binding-cells = <2>;
+      tapping-term-ms = <U_TAPPING_TERM>;
+      flavor = "hold-preferred";
+      bindings = <&mo>, <&kp>;
+    };
   };
 };
