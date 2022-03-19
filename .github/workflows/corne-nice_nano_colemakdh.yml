@@ -1,0 +1,14 @@
+# Copyright 2021 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build corne nice_nano (colemak dh)'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["corne_left","corne_right","settings_reset"]'
+      nav: '["vi"]'
+      kconfig: '["CONFIG_ZMK_SLEEP=y\\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=5400000"]'
