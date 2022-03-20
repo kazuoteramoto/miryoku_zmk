@@ -19,11 +19,31 @@
     };
     u_lh: behavior_layer_tap_hold {
       compatible = "zmk,behavior-hold-tap";
-      label = "u_lh";
       #binding-cells = <2>;
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "hold-preferred";
       bindings = <&mo>, <&kp>;
+    };
+    f_caret: f_caret {
+      compatible = "zmk,behavior-mod-morph";
+      #binding-cells = <0>;
+      bindings = <&u_mt LSHFT F>, <&u_mt LSHFT N6>;
+      mods = <(MOD_RALT)>;
+      keep-mods = <(MOD_RALT)>;
+    };
+    t_caret: t_caret {
+      compatible = "zmk,behavior-mod-morph";
+      #binding-cells = <0>;
+      bindings = <&u_mt LSHFT T>, <&u_mt LSHFT N6>;
+      mods = <(MOD_RALT)>;
+      keep-mods = <(MOD_RALT)>;
+    };
+    z_tilde: z_tilde {
+      compatible = "zmk,behavior-mod-morph";
+      #binding-cells = <0>;
+      bindings = <&u_lt U_BUTTON Z>, <&u_lt U_BUTTON TILDE>;
+      mods = <(MOD_RALT)>;
+      keep-mods = <(MOD_RALT)>;
     };
   };
 };
