@@ -48,7 +48,7 @@
     z_tilde: z_tilde {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      bindings = <&u_lt U_BUTTON Z>, <&u_lt U_BUTTON TILDE>;
+      bindings = <&kp Z>, <&kp TILDE>;
       mods = <(MOD_RALT)>;
       keep-mods = <(MOD_RALT)>;
     };
