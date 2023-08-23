@@ -12,4 +12,4 @@ jobs:
       shield: '["corne_left","corne_right","settings_reset"]'
       alphas: '["qwerty"]'
       nav: '["vi"]'
-      kconfig: '["CONFIG_ZMK_SLEEP=y\\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=5400000"]'
+      kconfig: '["CONFIG_ZMK_SLEEP=y\\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=5400000\\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=5\\nCONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=5"]'
