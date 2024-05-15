@@ -67,9 +67,9 @@ U_LT(U_BUTTON, Y), U_FT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LH(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_AZERTY \
-&kp A,             &kp Z,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-U_MT(LGUI, Q),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, M),     \
-U_LT(U_BUTTON, W), U_FT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp COMMA,         &kp DOT,           U_FT(RALT, SLASH), U_LT(U_BUTTON, SQT),\
+&kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp X,             &kp F,             &kp O,             &kp U,             &kp J,             \
+U_MT(LGUI, S),     U_MT(LALT, T),     U_MT(LCTRL, R),    U_MT(LSHFT, D),    &kp Y,             &kp DOT,           U_MT(LSHFT, N),    U_MT(LCTRL, A),    U_MT(LALT, E),     U_MT(LGUI, I),     \
+U_LT(U_BUTTON, Z), U_FT(RALT, K),     &kp Q,             &kp G,             &kp W,             &kp B,             &kp H,             &kp SQT,           U_FT(RALT, SLASH), U_LT(U_BUTTON, COMMA),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LH(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15 \
@@ -188,9 +188,9 @@ U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp 
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,           &kp TAB,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_AZERTY \
-&kp A,             &kp Z,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&kp Q,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp M,             \
-&kp W,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp COMMA,         &kp DOT,           &kp SLASH,         &kp SQT,           \
+&kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp X,             &kp F,             &kp O,             &kp U,             &kp J,             \
+&kp S,             &kp T,             &kp R,             &kp D,             &kp Y,             &kp DOT,           &kp N,             &kp A,             &kp E,             &kp I,             \
+&kp Z,             &kp K,             &kp Q,             &kp G,             &kp W,             &kp B,             &kp H,             &kp SQT,           &kp SLASH,         &kp COMMA         ,\
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15 \
